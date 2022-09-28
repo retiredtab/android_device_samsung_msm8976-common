@@ -49,6 +49,9 @@ ENABLE_CPUSETS := true
 TARGET_BOOTLOADER_BOARD_NAME := MSM8952
 TARGET_NO_BOOTLOADER := true
 
+# bring up
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom androidboot.wificountrycode=00 msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk

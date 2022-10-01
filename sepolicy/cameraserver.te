@@ -1,0 +1,4 @@
+#============= cameraserver ==============
+allow cameraserver default_android_service:service_manager find;
+allow cameraserver sysfs_camera:dir search;
+allow cameraserver sysfs_camera:file { open read };

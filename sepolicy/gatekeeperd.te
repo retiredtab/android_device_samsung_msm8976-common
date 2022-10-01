@@ -1,0 +1,2 @@
+#============= gatekeeperd ==============
+allow gatekeeperd init:binder call;

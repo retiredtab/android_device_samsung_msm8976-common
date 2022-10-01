@@ -1,0 +1,5 @@
+#============= vold ==============
+allow vold adsprpcd_file:dir read;
+allow vold efs_file:dir read;
+allow vold hal_bootctl_hwservice:hwservice_manager find;
+allow vold sysfs_mmc_host:file write;

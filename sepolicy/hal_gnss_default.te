@@ -1,0 +1,3 @@
+#============= hal_gnss_default ==============
+allow hal_gnss_default sysfs_batteryinfo:dir search;
+

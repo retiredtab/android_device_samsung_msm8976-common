@@ -241,7 +241,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom \
+    fstab.qcom
 
 PRODUCT_PACKAGES += \
     init.qcom.rc \

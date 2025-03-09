@@ -1,0 +1,3 @@
+#============= migrate_legacy_obb_data ==============
+allow migrate_legacy_obb_data unlabeled:dir create_dir_perms;
+
